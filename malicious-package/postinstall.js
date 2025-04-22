@@ -11,3 +11,4 @@ const systemInfo = {
 };
 
 fs.writeFileSync(path.join(__dirname, 'system_info.txt'), JSON.stringify(systemInfo, null, 2));
+console.log("Malicious postinstall script executed.");
